@@ -38,7 +38,7 @@ def child_process(success, svm_clf, rf_clf, index):
 	#sleep(10)
 	link_to_web(browser = browser, url = "http://railway.hinet.net/ctno1.htm")
 	#person_id: 身份證;; from_station: 起站代碼;; to_station: 到站代碼;; getin_date: 搭車日期;; train_no: 車次代碼;; order_qty_str: 訂票張數	#getin_date's format: '2016/12/28'
-	input_order_data_and_submit(browser = browser, person_id = 'N124536214', from_station = '149', to_station = '100', getin_date = '2017/01/15', train_no = '114', order_qty_str = '1')
+	input_order_data_and_submit(browser = browser, person_id = 'N123456789', from_station = '149', to_station = '100', getin_date = '2017/01/15', train_no = '114', order_qty_str = '1')
 
 	msg_code = 0
 	v = decaptcha(browser, svm_clf, rf_clf, success)
