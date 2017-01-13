@@ -1,6 +1,6 @@
  #!/usr/bin/python
  # -*- coding: utf-8 -*-
-from seleniumLink_snap import *
+from seleniumLink import *
 from numOfDigitRecog import load_num_of_digit_classifier, predict_num_of_digit
 from PIL import Image
 from imgProcess import *
